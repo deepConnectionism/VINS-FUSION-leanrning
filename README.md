@@ -1,6 +1,8 @@
 # VINS-Fusion中文注释版
 仅供学习用.
 
+本代码注释来自于： https://github.com/kuankuan-yue/VINS-FUSION-leanrning/tree/master
+
 十分感谢港科大各位老师的工作.
 
 目前仅仅注释了前端VIO部分.

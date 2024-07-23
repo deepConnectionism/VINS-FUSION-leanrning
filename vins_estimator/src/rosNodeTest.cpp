@@ -27,7 +27,7 @@ queue<sensor_msgs::ImuConstPtr> imu_buf;
 queue<sensor_msgs::PointCloudConstPtr> feature_buf;
 queue<sensor_msgs::ImageConstPtr> img0_buf;
 queue<sensor_msgs::ImageConstPtr> img1_buf;
-std::mutex m_buf; //似乎和C++11 的并发和多线程编程有关，留待后续了解
+std::mutex m_buf; // 似乎和C++11 的并发和多线程编程有关，留待后续了解
 /*
 基本作用： 互斥占有一个变量，一段时间内仅一个线程可以访问。
 即该类可以限制对某物的访问，只有先获得许可才可访问某物，否则一般可设为阻塞等待。
